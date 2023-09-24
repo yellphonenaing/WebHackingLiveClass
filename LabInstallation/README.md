@@ -1,5 +1,5 @@
 ## Install Labs Via Docker
-> Web Security Labsတွေကို Docker အသုံးပြုပြီး Install လုပ်သွားမှာဖြစ်ပါတယ်။<br>
+> Nova Web Sec Labs ကို Docker အသုံးပြုပြီး Install လုပ်သွားမှာဖြစ်ပါတယ်။<br>
 
 **Install Docker**
 ```
