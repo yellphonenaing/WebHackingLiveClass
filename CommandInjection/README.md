@@ -1,4 +1,4 @@
-## 2. Command Injection Attack
+## Command Injection Attack
 
 ![](https://i.ytimg.com/vi/UBWMLFbjPBc/maxresdefault.jpg)
 
