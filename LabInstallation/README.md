@@ -14,5 +14,6 @@ sudo systemctl enable docker
 ```
 **Install and Start Nova Web Sec Labs**
 ```
-
+cd ~ && wget https://raw.githubusercontent.com/yellphonenaing/WebHackingLiveClass/main/LabInstallation/novawebseclab.sh #Only for first time installation
+sudo bash ~/novawebseclab.sh start
 ```
