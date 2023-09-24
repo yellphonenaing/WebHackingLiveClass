@@ -5,3 +5,11 @@
 **What is SSRF Attack?**
 
 Server-side request forgery is a web security vulnerability that allows an attacker to cause the server-side application to make requests to an unintended location. In a typical SSRF attack, the attacker might cause the server to make a connection to internal-only services within the organization's infrastructure.
+
+**SSRF With Schema**
+```
+http ==> http://localhost/secretfile.txt
+https ==> https://localhost/secretfile.txt
+file ==> file:///etc/passwd
+
+```
