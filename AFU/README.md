@@ -56,4 +56,6 @@ asp, .aspx, .config, .ashx, .asmx, .aspq, .axd, .cshtm, .cshtml, .rem, .soap, .v
 **Server Side Scripts**
 ```
 .cgi , .shtml
-``
+```
+
+| PHP Shells | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/AFU/Shells) |
