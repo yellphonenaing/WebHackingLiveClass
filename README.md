@@ -8,3 +8,4 @@
 | Command Injection | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/CommandInjection) |
 | CSRF | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/CSRF) |
 | SSRF | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/SSRF) |
+| Arbitrary File Upload | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/AFU) |
