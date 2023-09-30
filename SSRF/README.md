@@ -22,3 +22,8 @@ http://0177.0.0.1/
 http://0/
 http://ⓛⓞⓒⓐⓛⓗⓞⓢⓣ (Magic Font)
 ```
+**DNS Trick**
+```
+Go to https://www.duckdns.org/ and add domain then add ip 127.0.0.1
+
+```
