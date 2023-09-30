@@ -58,4 +58,8 @@ asp, .aspx, .config, .ashx, .asmx, .aspq, .axd, .cshtm, .cshtml, .rem, .soap, .v
 .cgi , .shtml
 ```
 
-| PHP Shells | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/AFU/Shells) |
+**PHP Web Shells**
+
+| WSO Shell | [Click](https://github.com/mIcHyAmRaNe/wso-webshell) |
+| Reverse Shelll | [Click](https://github.com/yellphonenaing/reverse_shell) |
+| Tiny FileManager | [Click](https://github.com/prasathmani/tinyfilemanager) |
