@@ -37,3 +37,23 @@ CSS (.css): text/css
 application/x-httpd-php
 application/octet-stream
 ```
+
+**Bypass PHP Shells**
+```
+php, .php2, .php3, .php4, .php5, .php6, .php7, .phps, .phps, .pht, .phtm, .phtml, .pgif, .htaccess, .phar, .inc, .ctp, (all are not case sensitive)
+```
+
+**Bypass ASP Shells**
+```
+asp, .aspx, .config, .ashx, .asmx, .aspq, .axd, .cshtm, .cshtml, .rem, .soap, .vbhtm, .vbhtml, .asa, .cer
+```
+
+**Bypass JSP Shells**
+```
+.jsp, .jspx, .jsw, .jsv, .jspf, .wss, .do, .action
+```
+
+**Server Side Scripts**
+```
+.cgi , .shtml
+``
