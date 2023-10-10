@@ -9,3 +9,4 @@
 | CSRF | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/CSRF) |
 | SSRF | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/SSRF) |
 | Arbitrary File Upload | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/AFU) |
+| File Inclusion | [Click](https://github.com/yellphonenaing/WebHackingLiveClass/tree/main/FI) |
