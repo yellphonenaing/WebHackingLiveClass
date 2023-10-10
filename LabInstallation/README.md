@@ -17,3 +17,14 @@ sudo systemctl enable docker
 cd ~ && wget https://raw.githubusercontent.com/yellphonenaing/WebHackingLiveClass/main/LabInstallation/novawebseclab.sh #Only for first time installation
 sudo bash ~/novawebseclab.sh start
 ```
+
+**Start DVWA Labs**
+```
+sudo docker run -p 80:80 vulnerables/web-dvwa
+```
+
+**Start bWAPP**
+```
+sudo docker run -d -p 8008:80 raesene/bwapp
+```
+
