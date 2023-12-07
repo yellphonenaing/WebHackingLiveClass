@@ -118,4 +118,4 @@ curl --cookie "PHPSESSID=attacker" -F "PHP_SESSION_UPLOAD_PROGRESS=<?php phpinfo
 ```
 
 # Best walkthrough ever
-[Click here](https://miro.medium.com/v2/resize:fit:644/1*UPMlwBWgKMSUzSvY5mt5uw.png)
+[Click here](https://www.facebook.com/100035201946522/posts/pfbid02zghX3gn5cgjqNtcBQRdzzSoVf5kECpjCqg19t4JRmxXqgmbpV6f551cwCyFMgUq7l/?app=fbl)
