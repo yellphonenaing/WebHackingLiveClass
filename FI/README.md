@@ -5,6 +5,7 @@
 **What is File Inclusion  Attack?**
 
 A file inclusion vulnerability is a type of web vulnerability that is most commonly found to affect web applications that rely on a scripting run time.
+
 **General Payloads**
 
 ```
