@@ -59,7 +59,7 @@ http://example.com/index.php?page=php://fd/[0-9] (Opened Files In Current Proces
 http://example.com/index.php?page=zip://path-to-zip-file/%23shell.php
 ```
 
-# Web Serice Software logs Poisoning
+# Web Service Software logs Poisoning
 
 **Apache2**
 
